@@ -1,0 +1,72 @@
+/* Full page layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* Main dashboard */
+.dashboard {
+  min-height: 100vh;
+  padding: 30px;
+  color: white;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Two-column layout */
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Info section */
+.info-panel {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+}
+
+/* Role buttons side panel */
+.role-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Boxes */
+.box {
+  margin-bottom: 15px;
+}
+
+.box ul {
+  padding-left: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.admin { background: #ff4d4d; }
+.editor { background: #4d79ff; }
+.viewer { background: #00b894; }
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
